@@ -20,4 +20,6 @@ posts;
     return this.reddit.getData(userInput).subscribe(data => this.posts = data);
   }
 
+ 
+  
 }

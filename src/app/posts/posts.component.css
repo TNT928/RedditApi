@@ -24,8 +24,10 @@
     display: flex;
     justify-content: center;
     height: 40px;
-    margin: 50px;
+    margin: 5em;
     flex-direction: column;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.5em;
 }
 i{
     margin: 10px;
