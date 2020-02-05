@@ -1,0 +1,23 @@
+<div class="heading">
+        <h1>Reddit Search App</h1>
+        <h2>Use this App to seach Reddit for all kinds of fun posts!</h2>     
+</div>
+
+
+
+<div  class="search">
+   <input [(ngModel)]="userInput" type="text">  <br>
+   <button (click)= 'onSearch(userInput)'>Search</button>     
+</div>
+
+
+<div id="box" *ngFor="let post of posts" >
+  
+        <div class="container">
+                <p id="title"><span>Title:</span> {{post.data.title}}</p>
+                <p> Author: {{post.data.author}}</p>
+                  <img src="{{post.data.thumbnail}}"><br>  
+                <p><i class="fas fa-heart"></i> Likes: {{post.data.ups}}</p>    
+                <a href="{{post.data.url}}">Visit</a>
+        </div>
+</div>

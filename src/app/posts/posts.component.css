@@ -1,0 +1,79 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid blue;
+}
+
+.search{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    margin: 20px;
+}
+
+.heading{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    margin: 50px;
+    flex-direction: column;
+}
+i{
+    margin: 10px;
+    color: red;
+}
+
+span{
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+
+
+.search input{
+    height: 20px;
+    margin: 10px;
+    width: 21rem;
+    border-radius: 5px;
+}
+
+.search button{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#box{
+    margin: 0 auto;
+    width: 500px;
+    
+
+}
+
+#title{
+    font-size: 25px;
+}
+
